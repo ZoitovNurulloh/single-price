@@ -30,6 +30,14 @@
 
 /* CUSTOM PROPS */
 
+:root {
+  --dark-white:#e6eff5;
+  --gray:#9aa7be;
+  --green:#c0df33;
+  --blue:#2ab3b1;
+
+}
+
 
 /* GLOBAL */
 
@@ -51,7 +59,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family: "Arial", sans-serif;
+  font-family: "Karla", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -59,17 +67,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* CONTAINER */
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
